@@ -8,13 +8,25 @@ export default {
         DEFAULT: '1rem',
         sm: '2rem',
         lg: '4rem',
-        xl: '5rem',
-        '2xl': '12rem',
+        xl: '8rem',
+        '2xl': '16rem',
       }
     },
     colors: {
-      "orange": "orange",
-      "gray": "gray",
+      "primary": "#121010",
+      "gold": "#ffcb45",
+      "white": "#f2f2f2",
+      "gray": {
+        "1": "#393838",
+        "2": "#A09E9F",
+      }
+    },
+    breakpoints: {
+      sm: "596px",
+      md: "768px",
+      lg: "992px",
+      xl: "1200px",
+      xxl: "1400px",
     },
     extend: {},
   },
