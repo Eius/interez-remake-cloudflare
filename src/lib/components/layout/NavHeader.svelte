@@ -9,7 +9,7 @@
     
 </script>
 
-<nav class="bg-primary border-b border-gray-1 fixed z-50 top-0 right-0 left-0">
+<nav class="bg-primary border-b border-gray-1 sticky z-50 top-0 right-0 left-0">
     <MobileSearch />
     <div class="container grid grid-cols-3 py-4">
         <div class="col-span-1 flex items-center">
