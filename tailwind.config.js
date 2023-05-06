@@ -14,6 +14,7 @@ export default {
     },
     colors: {
       "primary": "#121010",
+      "secondary": "#231f20",
       "gold": "#ffcb45",
       "white": "#f2f2f2",
       "gray": {
@@ -21,12 +22,12 @@ export default {
         "2": "#A09E9F",
       }
     },
-    breakpoints: {
-      sm: "596px",
-      md: "768px",
-      lg: "992px",
-      xl: "1200px",
-      xxl: "1400px",
+    screens: {
+      "sm": "596px",
+      "md": "768px",
+      "lg": "992px",
+      "xl": "1200px",
+      "xxl": "1400px",
     },
     extend: {},
   },

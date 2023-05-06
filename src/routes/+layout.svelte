@@ -5,11 +5,12 @@
 	import "@fontsource/montserrat/800.css";
 	import "../app.css";
 	import "$lib/styles/global.css"
-	import NavMenu from "$lib/components/layout/NavMenu.svelte";
+	import NavHeader from "$lib/components/layout/NavHeader.svelte";
 </script>
 
 <div class="app">
-	<NavMenu />
+	
+	<NavHeader />
 	<main>
 		<slot />
 	</main>
