@@ -12,9 +12,6 @@
         <Icon icon="{$showSearch ? "material-symbols:close-rounded" : "material-symbols:search"}" />
     </button>
     <div class="bg-primary absolute hidden lg:flex right-0 {$showSearch ? 'top-0' : '-top-[200%]'} transition-all"> <!-- Absolute wrapper -->
-        <button class="text-gold text-2xl mr-2" on:click={() => {$showSearch = false}}> <!-- Close Button -->
-            <Icon icon="material-symbols:close-rounded" />
-        </button>
         <button class="text-gold text-2xl mr-4"> <!-- Search Button -->
             <Icon icon="material-symbols:search" />
         </button>
@@ -23,6 +20,9 @@
                 <input type="text" class="bg-primary relative text-gold text-sm placeholder:text-gold placeholder:text-sm focus:outline-none" placeholder="Hľadať" />
             </div>
         </form>
+        <button class="text-gold text-2xl ml-4" on:click={() => {$showSearch = false}}> <!-- Close Button -->
+            <Icon icon="material-symbols:close-rounded" />
+        </button>
     </div>
 </div>
 
