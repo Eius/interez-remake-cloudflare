@@ -1,5 +1,5 @@
 <script lang="ts">
-    import {showSearch} from "$lib/stores/ShowSearch";
+    import {showSearch} from "$lib/stores/ShowElements";
 	import Icon from "@iconify/svelte";
 </script>
 

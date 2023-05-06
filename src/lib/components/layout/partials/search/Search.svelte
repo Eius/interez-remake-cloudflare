@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Icon from "@iconify/svelte";
-    import {showSearch} from "$lib/stores/ShowSearch";
+    import {showSearch} from "$lib/stores/ShowElements";
 
 </script>
 
