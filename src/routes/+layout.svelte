@@ -10,6 +10,10 @@
 	import Footer from "$lib/components/layout/Footer.svelte";
 </script>
 
+<svelte:head>
+	<title>interez.sk | byť smart je interez</title>
+</svelte:head>
+
 <div class="app">
 	
 	<NavHeader />

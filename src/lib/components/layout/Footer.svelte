@@ -100,17 +100,17 @@
 
 <footer class="bg-primary border-b border-gray-1">
 	<div class="container pt-16 pb-6 flex flex-col gap-16">
-		<div class="grid grid-cols-3">
-			<div class="col-span-1 flex flex-col justify-end gap-6 w-3/4">
+		<div class="grid grid-cols-4 lg:grid-cols-3">
+			<div class="col-span-4 sm:col-span-2 lg:col-span-1 flex flex-col justify-end items-center gap-6">
 				<img src="/logo-interez-white.webp" alt="" class="" />
 				<div class="flex text-white text-xl justify-between">
 					<Socials />
 				</div>
-                <a href="https://trsr.sk/wp-content/uploads/Eticky_kodex.pdf" target="_blank">
-                    <img src="/eticky_kodex.webp" alt="" />
+                <a href="https://trsr.sk/wp-content/uploads/Eticky_kodex.pdf" target="_blank" rel="noreferrer">
+                    <img src="/eticky_kodex.webp" alt="" class="w-2/3 mx-auto" />
                 </a>
 			</div>
-			<div class="col-span-1 flex flex-col justify-end">
+			<div class="col-span-4 sm:col-span-2 lg:col-span-1 pt-12 lg:pt-0 flex flex-col justify-end items-center">
 				<ul class="flex flex-col gap-4">
 					{#each menuItems as { title, href }}
 						<a {href} class="hover:text-gold text-white transition-colors duration-150">
@@ -119,7 +119,7 @@
 					{/each}
 				</ul>
 			</div>
-			<div class="col-span-1 flex flex-col items-start gap-6">
+			<div class="col-span-4 lg:col-span-1 pt-12 lg:pt-0 flex flex-col items-center lg:items-start gap-6">
                 <img src="/siug-logo.svg" alt="" class="max-h-[60px]" />
 				<div class="flex gap-16">
                     <ul class="flex flex-col gap-4">
@@ -139,7 +139,7 @@
 				</div>
 			</div>
 		</div>
-        <ul class="flex justify-center gap-4">
+        <ul class="flex justify-center gap-4 flex-wrap">
             {#each legalItems as {title, href}, index}
                 {#if index > 0}
                     <span class="text-gray-2 text-sm">|</span>
@@ -153,7 +153,7 @@
 </footer>
 <div class="bg-primary">
     <div class="container">
-        <div class="flex justify-between items-center py-4">
+        <div class="flex flex-col md:flex-row justify-between items-center py-4 gap-4 md:gap-0">
             <p class="text-white text-xs">© Interez.sk 2014-{currentYear}</p>
             <p class="text-gold text-md font-semibold">Byť smart je interez</p>
             <p class="text-gray-2 text-xs"><span class="text-white">Interez.sk,</span> člen skupiny Startitup Group</p>
