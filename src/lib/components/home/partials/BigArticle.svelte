@@ -7,10 +7,10 @@
     export let meta: Meta;
 </script>
 
-<div class="flex flex-col pb-4 gap-2">
+<article class="flex flex-col pb-4 gap-2">
     <img src={img} alt="" class="w-full">
     <div class="flex"> <!-- Metadata Flexbox -->
         <PostMeta {meta} />
     </div>
     <h1 class="text-2xl font-semibold leading-tight">{title}</h1>
-</div>
+</article>

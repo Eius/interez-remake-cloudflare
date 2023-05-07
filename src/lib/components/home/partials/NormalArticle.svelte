@@ -7,10 +7,10 @@
     export let meta: Meta;
 </script>
 
-<div class="flex py-4">
+<article class="flex py-4">
     <img src={img} alt="" class="w-1/2 flex-grow">
     <div class="flex flex-col flex-grow px-4">
         <PostMeta {meta} />
         <h1 class="text-lg font-semibold leading-tight my-auto">{title}</h1>
     </div>
-</div>
+</article>
