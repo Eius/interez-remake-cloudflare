@@ -7,7 +7,7 @@
     export let meta: Meta;
 </script>
 
-<article class="flex py-4">
+<article class="flex py-4 last-of-type:pb-0">
     <img src={img} alt="" class="w-1/2 flex-grow">
     <div class="flex flex-col flex-grow px-4">
         <PostMeta {meta} />
